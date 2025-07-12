@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-let talk = document.getElementById("haha");
+let talk = document.getElementById("ha");
 talk.textContent = "oats and honey";
 console.log(talk);
 
