@@ -206,5 +206,5 @@ console.log((c < 6 || s > 6)); // true
 // Logical NOT
 console.log(!(c < 6)); // false
 
-
+console.log(!(c > 6)); // true
 
