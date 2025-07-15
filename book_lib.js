@@ -47,10 +47,6 @@ myLibrary.addBook(new Book("Chasing the Sun", "4reuminct", 2020, false));
 myLibrary.addBook(new Book("Avenues of the Diamond", "4reuminct", 2020, false));
 myLibrary.addBook(new Book("Golden Scenery of Tomorrow", "4reuminct", 2020, false));
 
-myLibrary.listBooks();
 
-myLibrary.toggleReadStatus("The Rain in España");
-myLibrary.toggleReadStatus("Safe Skies Archer");
-myLibrary.toggleReadStatus("Unknown Book"); 
 myLibrary.listBooks();
     
