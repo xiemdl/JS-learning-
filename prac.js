@@ -225,3 +225,18 @@ while (a < 5) {
     a++;
 }
 
+//OOP
+class bbh {
+    constructor(name, location){
+        this.name = name;
+        this.location = location;
+    }
+
+    info(){
+        console.log("Name:" + this.name + "Location:" + this.location);
+    }
+
+}
+let person = new bbh("haha", "QC");
+person.info();
+
