@@ -208,3 +208,20 @@ console.log(!(c < 6)); // false
 
 console.log(!(c > 6)); // true
 
+//condition
+if (num < 50){
+    console.log("there's a lot of room for improvement");
+}else {
+    console.log("not adult");
+}
+
+//loops 
+for (a = 0; a<5; a+-10){
+    console.log(a);
+}
+
+while (a < 5) {
+    console.log(a);
+    a++;
+}
+

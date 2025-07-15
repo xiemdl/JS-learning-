@@ -16,6 +16,9 @@ function myFunction() {
   document.getElementById("demo").innerHTML = "YESSSS!!";
 }
 
+
+
+
 //  document.getElementById("cat");
 // document.addEventListener("DOMContentLoaded", function () {
 //     let catImage = document.getElementById("cat");
