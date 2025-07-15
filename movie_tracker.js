@@ -1,3 +1,8 @@
+
+let name = prompt("Enter your name:");
+console.log("Hello, " + name);  // Developer Console
+alert("Welcome, " + name);      // Popup alert
+
 class Movie{
     constructor (title, director, year, genre, watched){
         this.title = title;
