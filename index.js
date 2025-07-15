@@ -11,3 +11,12 @@ talk.textContent = "oats and honey";
 console.log(talk);
 
 });
+
+//  document.getElementById("cat");
+// document.addEventListener("DOMContentLoaded", function () {
+//     let catImage = document.getElementById("cat");
+//     catImage.src = "./picturess/cats.jpg"; // Ensure the path is correct
+//     console.log(catImage);
+// });
+
+
