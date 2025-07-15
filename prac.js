@@ -240,3 +240,17 @@ class bbh {
 let person = new bbh("haha", "QC");
 person.info();
 
+
+//inheritance
+class record extends bbh {
+    constructor (age){
+        this.age = age;
+    }
+
+    final(){
+        console.log("Age:" + age);
+    }
+}
+
+const person2 = new record (21);
+person2.final();
