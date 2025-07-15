@@ -13,7 +13,7 @@ console.log(talk);
 });
 
 function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
+  document.getElementById("demo").innerHTML = "YESSSS!!";
 }
 
 //  document.getElementById("cat");
