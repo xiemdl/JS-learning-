@@ -12,6 +12,10 @@ console.log(talk);
 
 });
 
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+
 //  document.getElementById("cat");
 // document.addEventListener("DOMContentLoaded", function () {
 //     let catImage = document.getElementById("cat");
