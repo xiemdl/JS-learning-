@@ -1,7 +1,7 @@
+
 // Base class
 class UserProfile {
     #personalInfo;
-
     constructor(name, age, location, hobbies){
         this.name = name;
         this.age = age;
@@ -28,7 +28,7 @@ class UserProfile {
     }
 }
 
-// Subclass with age check
+// Subclass with polymorphism
 class AgeChecker extends UserProfile {
     constructor(name, age, location, hobbies){
         super(name, age, location, hobbies);
@@ -43,11 +43,17 @@ class AgeChecker extends UserProfile {
     }
 }
 
-// ✅ Create a single object from AgeChecker
-let user = new AgeChecker(name, location, hobbies);
+// let name = prompt("Enter your name:");
+// let age = parseInt(prompt("Enter your age:"));  
+// let location = prompt("Enter your location:");
+// let hobbies = prompt("Enter your hobbies (comma separated):");
+
+
+// ✅ Create objects with actual values
+let user = new UserProfile("shie", 21, "Gogon", "Reading, Foodtrip, Gaming");
+let person = new AgeChecker("shie", 21, "Gogon", "Reading, Foodtrip, Gaming");
+
+// Call methods
 user.greet();
 user.listHobbies();
-user.checkAge();
-
-
-hdfdkjhsakhfkdsac
+person.checkAge();
