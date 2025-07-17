@@ -57,3 +57,11 @@ let person = new AgeChecker("shie", 21, "Gogon", "Reading, Foodtrip, Gaming");
 user.greet();
 user.listHobbies();
 person.checkAge();
+
+
+function myFunction(){
+    document.getElementById("demo").innerHTML = "OFC!"
+
+}   
+
+
