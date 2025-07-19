@@ -76,4 +76,15 @@
 
 // Otherwise, just print the number.
 
-
+let number = parseInt(prompt("Enter a number"));
+for ( let b = 1; b <= number ; b++){
+    if ( b % 3 === 0 && b % 5 === 0){
+        console.log(b + "  " + "FizzBuzz");
+    }else if ( b % 3 === 0){
+        console.log(b + "  " + "Fizz");
+    }else if ( b % 5 === 0 ){
+        console.log(b + "  " + "Buzz");
+    }else{
+        console.log(b);
+    }
+}
