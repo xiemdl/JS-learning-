@@ -7,18 +7,16 @@
 //         console.log(s);
 // }
 
-// correct version
-// let num = parseInt(prompt("Enter a number:"));  
+// correcte version
+let num = parseInt(prompt("Enter a number:"));  
 
-// let s = 1;
-
-// for (let s = 1; s<= num; s++){
-//  if (s % 2 === 0) 
-//         continue;
-//  if (s > 10)
-//     break;
-//         console.log(s);
-// }
+for (let s = 1; s<= num; s++){
+ if (s % 2 === 0) 
+        continue;
+ if (s > 10)
+    break;
+        console.log(s);
+}
 
 // ( Practice Task for You:
 // Write a program that:
