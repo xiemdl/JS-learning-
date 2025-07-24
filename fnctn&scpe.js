@@ -60,14 +60,14 @@ let lower = word.toLowerCase();
 let reversed = word.split("").reverse().join("");
 
 function isPalindrome(){
-    if( word === isPalindrome){
-        return "Yes, it's a palindrome!";
+    if( lower === reversed){
+        return word + " _ " + "Yes, it's a palindrome!";
     } else{
-        return "No, it's not a palindrome.";
+        return word + " _ " + "No, it's not a palindrome.";
     }  
 }
 
-let change = isPalindrome(word);
-
+let change = isPalindrome();
+console.log(change);
 
 
