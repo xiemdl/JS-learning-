@@ -1,48 +1,48 @@
 // //object
-// let person = {
-//   name: "Ana",
-//   age: 21,
-//   hobbies: ["reading", "eating"],
-//   isStudent: true
+let person = {
+  name: "Ana",
+  age: 21,
+  hobbies: ["reading", "eating"],
+  isStudent: true
 
-// };
+};
 
-// console.log(person.name);       // Dot notation
-// console.log(person["age"]);
-// console.log(person["hobbies"]); // Bracket notation
+console.log(person.name);       // Dot notation
+console.log(person["age"]);
+console.log(person["hobbies"]); // Bracket notation
 
 // // Methods in Objects (Functions inside Objects)
-// let person1 = {
-//   name: "Ana",
-//   greet: function() {
-//     return "Hello, my name is " + this.name;
-//   }
-// };
+let person1 = {
+  name: "Ana",
+  greet: function() {
+    return "Hello, my name is " + this.name;
+  }
+};
 
-// console.log(person1.greet());
+console.log(person1.greet());
 
 // //studentsRecordSystem
-// let students = [];
-// let count = parseInt(prompt("How many students do you want to enter?"));
+let students = [];
+let count = parseInt(prompt("How many students do you want to enter?"));
 
-// for (let i = 0; i < count; i++) {
-//   let name = prompt(`Enter name of student ${i + 1}:`);
-//   let age = parseInt(prompt(`Enter age of ${name}:`));
-//   let course = prompt(`Enter course of ${name}:`);
+for (let i = 0; i < count; i++) {
+  let name = prompt(`Enter name of student ${i + 1}:`);
+  let age = parseInt(prompt(`Enter age of ${name}:`));
+  let course = prompt(`Enter course of ${name}:`);
 
-//   let student = {
-//     name: name,
-//     age: age,
-//     course: course,
-//     result: function () {
-//       return "Name: " + this.name + ", Age: " + this.age + ", Course: " + this.course;
-//     }
-//   };
+  let student = {
+    name: name,
+    age: age,
+    course: course,
+    result: function () {
+      return "Name: " + this.name + ", Age: " + this.age + ", Course: " + this.course;
+    }
+  };
 
-//   students.push(student);
-//   console.log(student.result());
+  students.push(student);
+  console.log(student.result());
 
-// }
+}
 
 // Student Grade System
 let student = [];
