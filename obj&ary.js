@@ -20,11 +20,13 @@
 // };
 
 // console.log(person1.greet());
-
-let name = [Cris,Shiela,Nhalie];
+//studentsRecordSystem
 let student = {
   name : [Cris,Shiela,Nhalie],
   age : [24, 21, 2],
   course : "BSIT"
 
 };
+console.log(student["name"]);
+
+
